@@ -1,7 +1,7 @@
 /*
  * Name : Utpal Jitendra
  * Roll : 590041777
- * Day  : 23 Question: 44
+ * Day  : 23 Question: 46
  *
  * PROBLEM STATEMENT:
  * Write a program to print the following pattern:
