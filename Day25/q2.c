@@ -1,0 +1,38 @@
+/*
+ * Name : Utpal Jitendra
+ * Roll : 590041777
+ * Day  : 25
+ * Question: 50
+ *
+ * PROBLEM STATEMENT:
+ * Write a program to print the following pattern:
+ * *****
+ *  ****
+ *   ***
+ *    **
+ *     *
+ */
+
+#include <stdio.h>
+
+int main()
+{
+    int i, j;
+
+    for (i = 0; i < 5; i++)
+    {
+        
+        for (j = 0; j < i; j++)
+        {
+            printf(" ");
+        }
+        for (j = i; j < 5; j++)
+        {
+            printf("*");
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
